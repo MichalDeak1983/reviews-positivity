@@ -10,4 +10,19 @@ To use the scraper the url should be obtained in the following way:
 
 The url should look like this: https://www.amazon.com/product-reviews/B07NVTGRVZ/ref=cm_cr_getr_d_paging_btm_next_2?filterByStar=one_star&pageNumber=2
 
+Requiers:
+- selectorlib: Extractor
+- requests 
+- json 
+- time: sleep
+- csv
+- dateutil: parser
+- pandas
+- num2words
+
 To use the reviews_analysis.ipynb just run in jupyterlab. Code uses data_review.csv produced by scrape_reviews.ipynb
+Requiers:
+- numpy
+- pandas
+- matplotlib.pyplot
+- re
